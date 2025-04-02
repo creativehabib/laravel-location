@@ -10,7 +10,7 @@ This Package offers a simple way to get Countries, Cities and States that you ma
 Require the package via composer into your project
 
 ```shell
-composer require ichtrojan/laravel-location
+composer require bdhabib/laravel-location
 ```
 
 ![composer install](https://res.cloudinary.com/ichtrojan/image/upload/v1557601533/Screenshot_2019-05-11_at_8.04.49_PM_ojixaa.png)
@@ -52,7 +52,7 @@ php artisan migrate
 Finally, run the Package seeders
 
 ```shell
-php artisan db:seed --class=Ichtrojan\\Location\\Seeds\\LocationDatabaseSeeder
+php artisan db:seed --class=Bdhabib\\Location\\Seeds\\LocationDatabaseSeeder
 ```
 
 ## Usage 🧨
