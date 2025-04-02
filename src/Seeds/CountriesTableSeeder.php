@@ -1,5 +1,5 @@
 <?php
-namespace Bdhabib\Location\seeds;
+namespace Bdhabib\Location\Seeds;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
