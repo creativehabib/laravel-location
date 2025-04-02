@@ -4,7 +4,7 @@
 	"keywords": ["Laravel","Location","BD Location", "Bangladesh", "Creativehabib"],
 	"type": "library",
 	"license": "MIT",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"authors": [
 		{
 			"name": "Habibur Rahaman",
@@ -46,6 +46,6 @@
 		"illuminate/filesystem": "^5.8.15|^6.0|^12.0",
 		"illuminate/database": "^5.8.15|^6.0|^12.0",
 		"phpunit/php-code-coverage": "^11.0@dev"
-	
+
 	}
 }
