@@ -27,12 +27,16 @@ class LocationServiceProvider extends ServiceProvider
     {
         $this->loadRoutesFrom(__DIR__.'/routes/web.php');
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
-        $this->loadSeedsFrom(__DIR__.'/Seeds');
+
+        // Optional: Publish Seeder
+        $this->publishes([
+            __DIR__.'/Seeds/LocationDatabaseSeeder.php' => database_path('seeders/LocationDatabaseSeeder.php'),
+        ], 'seeds');
 
         if ($this->app->runningInConsole()) {
             $this->publishConfigs();
         }
-        
+
     }
 
     protected function publishConfigs()
