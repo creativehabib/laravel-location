@@ -1,12 +1,12 @@
 <?php
 
-namespace Ichtrojan\Location\Test;
+namespace \Location\Test;
 
-use Ichtrojan\Location\LocationServiceProvider;
-use Ichtrojan\Location\Seeds\CountriesTableSeeder;
-use Ichtrojan\Location\Seeds\StatesTableSeeder;
-use Ichtrojan\Location\Seeds\CitiesTableSeeder;
-use Ichtrojan\Location\Seeds\StateCityCountrySeeder;
+use Bdhabib\Location\LocationServiceProvider;
+use Bdhabib\Location\Seeds\CountriesTableSeeder;
+use Bdhabib\Location\Seeds\StatesTableSeeder;
+use Bdhabib\Location\Seeds\CitiesTableSeeder;
+use Bdhabib\Location\Seeds\StateCityCountrySeeder;
 use Illuminate\Encryption\Encrypter;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Orchestra\Testbench\Concerns\CreatesApplication;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Ichtrojan\Location\Test;
+namespace Bdhabib\Location\Test;
 
-use Ichtrojan\Location\Models\City;
-use Ichtrojan\Location\Models\State;
+use Bdhabib\Location\Models\City;
+use Bdhabib\Location\Models\State;
 
 class LocationRouteTest extends TestCase
 {
